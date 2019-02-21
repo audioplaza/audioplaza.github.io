@@ -1,4 +1,4 @@
-title: 오디오플라자 기술
+title: 오디오플라자 github
 email: lee@audioplaza.co.kr
 description: |
   하이파이오디오
@@ -49,7 +49,7 @@ exclude: [README.md, Gemfile, Gemfile.lock]
 keep_files: [assets, files]
 github: [metadata]
 # iolo's custom
-author: geojeart@daum.net
+author: lee@audioplaza.co.kr
 image: '/assets/images/default_blog_cover.jpg'
 asset_url: /assets
 #asset_url: //meta-kage.kakaocdn.net/dn/osa/blog/assets

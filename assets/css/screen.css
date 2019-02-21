@@ -915,6 +915,7 @@ body.tag-template #navbar {
 
 #post-content p {
 	font-family: 'Jeju Myeongjo', 'Noto Sans';
+	text-align:justify;
     margin: 10px 0 0 0;
 }
 
@@ -1534,7 +1535,7 @@ body.page-template {
     #post-content {
         margin: 0 15px;
         padding: 25px 0 40px 0;
-        text-align: left;
+        text-align: justify;
     }
 
     #post-footer {

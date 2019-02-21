@@ -868,7 +868,7 @@ body.tag-template #navbar {
     margin: 0 40px;
     padding: 70px 40px 100px 40px; /* 40(margin) + 40(padding) = 80 */
     border-bottom: 1px solid #e6e6e6;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 29px; /* 29px = 17(font-size) + 12(line-spacing) */
     text-align: justify;
 }

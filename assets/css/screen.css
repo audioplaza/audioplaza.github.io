@@ -1,8 +1,31 @@
 /* common */
-@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+/*@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);*/
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 /*@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
 @import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo');*/
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(//t1.daumcdn.net/tistory_admin/static/font/notokr-regular.woff2) format('woff2'),
+    url(//t1.daumcdn.net/tistory_admin/static/font/notokr-regular.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(//t1.daumcdn.net/tistory_admin/static/font/notokr-demilight.woff2) format('woff2'),
+    url(//t1.daumcdn.net/tistory_admin/static/font/notokr-demilight.woff) format('woff');
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(//t1.daumcdn.net/tistory_admin/static/font/notokr-bold.woff2) format('woff2'),
+    url(//t1.daumcdn.net/tistory_admin/static/font/notokr-bold.woff) format('woff');
+    font-style: normal;
+    font-weight: bold;
+}
+
 
 * {
     -webkit-box-sizing: border-box;
@@ -22,12 +45,12 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'cwTeXMing', 'Jeju Myeongjo' , 'Noto Sans KR', '돋움', sans-serif;
+    font-family: 'Jeju Myeongjo' , 'Noto Sans', '돋움', sans-serif;
     font-weight: 400;
     color: #1e1e1e;
 }
 
-ul li { font-family: 'cwTeXMing', 'Jeju Myeongjo' , 'Noto Sans KR', '돋움', sans-serif; }
+ul li { font-family: 'Jeju Myeongjo' , 'Noto Sans', '돋움', sans-serif; }
 
 pre,
 code,
@@ -553,7 +576,7 @@ for small screen(<720px):
 #cover,
 #navbar,
 #footer {
-    font-family: 'Noto Sans KR', sans-serif !important;
+    font-family: 'Noto Sans', sans-serif !important;
 }
 
 /* list(loop) */
@@ -891,7 +914,7 @@ body.tag-template #navbar {
 }
 
 #post-content p {
-	font-family: 'cwTeXMing', 'Jeju Myeongjo', 'Noto Sans KR';
+	font-family: 'Jeju Myeongjo', 'Noto Sans';
     margin: 10px 0 0 0;
 }
 
@@ -901,7 +924,7 @@ body.tag-template #navbar {
 }
 
 #post-content blockquote {
-	font-family: 'cwTeXMing', 'Jeju Myeongjo', serif;
+	font-family: 'Jeju Myeongjo', serif;
     margin: 20px 0;
     padding: 15px;
     border-left: 3px solid #f3cf00;
@@ -1332,7 +1355,7 @@ body.page-template {
     }
 
     #cover h1 {
-		font-family: 'cwTeXMing', 'Jeju Myeongjo' , sans-serif;
+		font-family: 'Jeju Myeongjo' , sans-serif;
         font-size: 24px !important;
         line-height: 29px !important; /* 29px = 24(font-size) + 5(line-spacing) */
     }

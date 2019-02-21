@@ -1,0 +1,67 @@
+title: 오디오플라자 기술
+email: lee@audioplaza.co.kr
+description: |
+  하이파이오디오
+baseurl: ''
+url: 'http://audioplaza.github.io'
+timezone: Asia/Seoul 
+
+repository: audioplaza.github.io
+
+permalink: /:year/:month/:day/:title/
+
+excerpt_separator: <!--more-->
+
+markdown: kramdown
+
+krandown:
+  input: GFM
+  highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+
+paginate: 12
+paginate_path: '/page/:num/'
+
+collections:
+  authors:
+    output: true
+    permalink: /authors/:path/
+  tags:
+    output: true
+    permalink: /tags/:path/
+
+defaults:
+  - scope:
+      path: ''
+      type: authors
+    values:
+      layout: author
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+
+exclude: [README.md, Gemfile, Gemfile.lock]
+
+keep_files: [assets, files]
+github: [metadata]
+# iolo's custom
+author: geojeart@daum.net
+image: '/assets/images/default_blog_cover.jpg'
+asset_url: /assets
+#asset_url: //meta-kage.kakaocdn.net/dn/osa/blog/assets
+#asset_url: //t1.daumcdn.net/osa/blog/assets
+google_analytics:
+  ua: 'UA-72007721-1'
+facebook:
+  app_id: '1204347326263800'
+  username: nkakao
+twitter:
+  username: kakaodev
+google_plus:
+  username: kakaodev
+github_url:
+  username: kakao
